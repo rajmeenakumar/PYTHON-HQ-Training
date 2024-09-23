@@ -18,3 +18,7 @@ def multiply_numbers(*args):
 
 def greet_with_age(name, age):
     return f"Hello, {name}! You are {age} years old."
+
+#lamda function for greet_with_age
+
+greet_with_age_lambda = lambda name, age: f"Hello, {name}! You are {age} years old."

@@ -1,4 +1,5 @@
 from datetime import datetime
+from functools import reduce
 
 class MaxVotesError(Exception):
     def __init__(self, message):
@@ -60,4 +61,26 @@ print("--- Sorted Destinations ---")
 for destination in destinations:
     print(destination)
 
-# Increment votes for one of the destinations
+# map function to transform 
+titles = list(map(lambda x: x.title, destinations))
+print(titles)
+
+def votes_morethan_ten(destination):
+    return destination.votes > 10
+
+filtered_list = list(filter(lambda x: x.votes > 10, destinations))
+filtered_list = list(filter(votes_morethan_ten, destinations))
+for destination in filtered_list:
+    print(destination)
+
+
+def custom_sum(first, second):
+    return first + second
+
+total_votes = reduce(custom_sum, [destination.votes for destination in destinations])
+
+print(f"Total votes: {total_votes}")
+
+only_votes = list(map(lambda x: x.votes, destinations))
+print(only_votes)
+print(max(only_votes))
