@@ -1,8 +1,8 @@
+from typing import Any, Dict, List
 from fastapi import FastAPI, status, HTTPException
 from course import Course
 app = FastAPI()
-
-courses: Course = [{
+courses: List[Dict[str, Any]] = [{
     "id": 1,
     "title": "Python Programming",
     "instructor": "Dr. Samuel Johnson",
@@ -13,14 +13,35 @@ courses: Course = [{
 def hello_world():
     return {"message": f"Hello, World!"}
 
+
+
 @app.get("/courses")
 def get_courses():
+    global courses
     return courses
 
-#fetch a single course
 
+@app.get("/courses/studentsrange")
+def get_courses_by_students_range(min_students: int, max_students: int):
+    # print(min_students)
+    # print(max_students)
+    filtered_coures = [course for course in courses if min_students <= course["students"] <= max_students]
+    if not filtered_coures:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with students between {min_students} and {max_students}")
+    return filtered_coures
+
+@app.get("/courses/sortedby")
+def get_courses_sorted_by_students(field: str):
+    print(field)
+    sorted_list = sorted(courses, key=lambda x: x[field])
+    print(sorted_list)
+    # courses.sort(key=lambda x: x["students"])
+    return sorted_list
+
+#fetch a single course
 @app.get("/courses/{course_id}")
 def get_course(course_id: int):
+    global courses
     for course in courses:
         if course["id"] == course_id:
             return course
@@ -28,7 +49,8 @@ def get_course(course_id: int):
 
 @app.post("/courses", status_code=status.HTTP_201_CREATED)
 def create_course(course: Course):
-    courses.append(course)
+    global courses
+    courses.append(course.dict())
     return course
 
 @app.delete("/courses/{course_id}")
@@ -56,11 +78,3 @@ def get_courses_by_title(title: str):
         return filtered_coures
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with title starting with {title}")
 
-@app.get("/courses/studentsrange")
-def get_courses_by_students_range(min_students: int, max_students: int):
-    # print(min_students)
-    # print(max_students)
-    filtered_coures = [course for course in courses if min_students <= course["students"] <= max_students]
-    if filtered_coures:
-        return filtered_coures
-    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with students between {min_students} and {max_students}")
