@@ -21,9 +21,9 @@ def get_courses():
 
 @app.get("/courses/{course_id}")
 def get_course(course_id: int):
-    course = next((course for course in courses if course.id == course_id), None)
-    if course is None:
-        return {"error": f"Course with id {course_id} not found"}
+    for course in courses:
+        if course["id"] == course_id:
+            return course
 
 @app.post("/courses")
 def create_course(course: Course):
@@ -32,12 +32,10 @@ def create_course(course: Course):
 
 @app.delete("/courses/{course_id}")
 def delete_course(course_id: int):
-    global courses
-    print( course_id)
-    #filter courses to remove the course with the given id
-    filtered_list = list(filter(lambda course: course['id']!= course_id, courses))
-    courses = filtered_list
-    return courses
+   for course in courses:
+        if course["id"] == course_id:
+            courses.remove(course)
+            return {"message": f"Course with id {course_id} deleted"}
 
 
 @app.patch("/courses/{course_id}")
