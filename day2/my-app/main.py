@@ -48,3 +48,10 @@ def update_course(course_id: int, updated_course: Course):
         return {"error": f"Course with id {course_id} not found"}
     course.update(updated_course.dict(exclude_unset=True))
     return course
+
+@app.get("/courses/bytitle")
+def get_courses_by_title(title: str):
+    filtered_coures = [course for course in courses if course["title"].lower().startswith(title.lower())]
+    if filtered_coures:
+        return filtered_coures
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with title starting with {title}")
