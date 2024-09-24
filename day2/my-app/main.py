@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, status, HTTPException
 from course import Course
 app = FastAPI()
 
@@ -24,8 +24,9 @@ def get_course(course_id: int):
     for course in courses:
         if course["id"] == course_id:
             return course
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Course with id {course_id} not found")
 
-@app.post("/courses")
+@app.post("/courses", status_code=status.HTTP_201_CREATED)
 def create_course(course: Course):
     courses.append(course)
     return course
