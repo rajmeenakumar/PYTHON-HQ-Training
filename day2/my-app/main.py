@@ -32,10 +32,20 @@ def create_course(course: Course):
 
 @app.delete("/courses/{course_id}")
 def delete_course(course_id: int):
+    global courses
     print( course_id)
-    filtered_course = courses.filter(lambda course: course.id!= course_id)    
-
-    # filtered_course = list(courses, key=lambda course: course.id != course_id)
-    #  filtered_course = list(filter(lambda course: course.id!=course_id  , courses))
-    courses = filtered_course
+    #filter courses to remove the course with the given id
+    filtered_list = list(filter(lambda course: course['id']!= course_id, courses))
+    courses = filtered_list
     return courses
+
+
+@app.patch("/courses/{course_id}")
+
+def update_course(course_id: int, updated_course: Course):
+    global courses
+    course = next((course for course in courses if course['id'] == course_id), None)
+    if course is None:
+        return {"error": f"Course with id {course_id} not found"}
+    course.update(updated_course.dict(exclude_unset=True))
+    return course
