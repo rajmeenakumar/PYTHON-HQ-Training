@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "237bf838-4ba6-44e1-8d48-5f8190e8833d",
+		"name": "CRIS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "425296"
+	},
+	"item": [
+		{
+			"name": "course",
+			"item": [
+				{
+					"name": "Fetch All Courses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/courses",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch A Course By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/courses/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch A Course By Title Starting",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/courses?title=Python",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Python"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a Course",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 2,\r\n        \"title\": \"Angular\",\r\n        \"instructor\": \"Dr. Ravi Johnson\",\r\n        \"students\": 200\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/courses",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a Course",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/courses/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a Course Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     {\r\n        \"id\": 1,\r\n        \"title\": \"Python Programming\",\r\n        \"instructor\": \"Dr. Samuel Johnson\",\r\n        \"students\": 300\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/courses/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"courses",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -55,3 +55,12 @@ def get_courses_by_title(title: str):
     if filtered_coures:
         return filtered_coures
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with title starting with {title}")
+
+@app.get("/courses/studentsrange")
+def get_courses_by_students_range(min_students: int, max_students: int):
+    # print(min_students)
+    # print(max_students)
+    filtered_coures = [course for course in courses if min_students <= course["students"] <= max_students]
+    if filtered_coures:
+        return filtered_coures
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No courses found with students between {min_students} and {max_students}")
