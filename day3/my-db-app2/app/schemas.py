@@ -30,4 +30,4 @@ class Destination(BaseModel):
     description: str
     votes: int
     created_at: datetime
-    category: Category
+    # category: Category
