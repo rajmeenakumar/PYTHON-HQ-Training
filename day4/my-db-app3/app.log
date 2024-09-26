@@ -122,3 +122,7 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-09-26 13:04:31,813 - INFO - Request processing completed in 0.025 seconds
 2024-09-26 13:05:32,709 - INFO - Processing request: GET http://localhost:8000/docs
 2024-09-26 13:05:32,710 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 13:05:47,884 - INFO - Processing request: GET http://localhost:8000/docs
+2024-09-26 13:05:47,885 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 13:05:47,985 - INFO - Processing request: GET http://localhost:8000/openapi.json
+2024-09-26 13:05:48,040 - INFO - Request processing completed in 0.054 seconds
