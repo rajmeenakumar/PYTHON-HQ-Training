@@ -1,0 +1,67 @@
+{
+  "trips": [
+    {
+      "id": "2",
+      "destination": "Croatia",
+      "description": "Croatia is a charming Mediterranean gem renowned for its stunning coastline and historic cities. The Adriatic Sea graces its shores with crystal-clear waters and picturesque islands like Hvar and Korčula. Dubrovnik, often called the \"Pearl of the Adriatic,\" boasts well-preserved medieval architecture and a vibrant cultural scene. Split offers a mix of ancient Roman history and lively modern life, with the Diocletian’s Palace at its heart. Inland, Plitvice Lakes National Park features breathtaking waterfalls and lush landscapes, making Croatia a versatile destination for both relaxation and adventure.",
+      "votes": 79,
+      "imageUrl": "/images/croatia.jpg"
+    },
+    {
+      "id": "3",
+      "destination": "Canada",
+      "description": "Canada is a vast and diverse country offering a wide array of experiences for travelers. From the stunning Rocky Mountains and pristine lakes in Alberta to the cosmopolitan allure of cities like Toronto and Vancouver, Canada caters to all interests. Nature lovers can explore national parks like Banff and Jasper, while culture enthusiasts can enjoy the historic charm of Quebec City or the vibrant arts scene in Montreal. With its friendly locals, breathtaking landscapes, and rich cultural tapestry, Canada promises an unforgettable journey for adventurers and city dwellers alike.",
+      "votes": 91,
+      "imageUrl": "/images/canada.jpg"
+    },
+    {
+      "id": "4",
+      "destination": "Philippines",
+      "description": "The Philippines is an enchanting tropical paradise known for its stunning islands and vibrant culture. With over 7,000 islands, it boasts pristine beaches, crystal-clear waters, and lush jungles. Palawan, with its dramatic limestone cliffs and emerald lagoons, is a highlight, while Boracay is famous for its powdery white sand and lively nightlife. The historic city of Manila offers a mix of colonial and modern attractions, and Cebu is known for its rich history and diving spots. Friendly locals, diverse marine life, and breathtaking scenery make the Philippines a captivating destination for relaxation and adventure",
+      "votes": 83,
+      "imageUrl": "/images/Philippines.jpg"
+    },
+    {
+      "id": "5",
+      "destination": "Netherlands",
+      "description": "The Netherlands is a delightful European destination celebrated for its charming canals, historic cities, and picturesque countryside. Amsterdam stands out with its iconic canal system, world-class museums like the Rijksmuseum and Van Gogh Museum, and vibrant nightlife. The country’s flat landscape is ideal for cycling, and regions like the Dutch countryside feature tulip fields, windmills, and quaint villages such as Zaanse Schans and Giethoorn. The Netherlands offers a blend of cultural richness, scenic beauty, and innovative urban experiences, making it a memorable place to visit.",
+      "votes": 43,
+      "imageUrl": "/images/netherlands.jpg"
+    },
+    {
+      "id": "6",
+      "destination": "Czech Republic",
+      "description": "The Czech Republic is a captivating destination renowned for its rich history and architectural splendor. Prague, the capital, enchants visitors with its well-preserved medieval streets, stunning Gothic and Baroque architecture, and landmarks like Prague Castle and the Charles Bridge. Beyond the capital, the country boasts charming towns like Český Krumlov and Karlovy Vary, known for their historic charm and thermal spas. The picturesque Bohemian and Moravian landscapes offer opportunities for outdoor activities and exploration. With its blend of historical heritage and scenic beauty, the Czech Republic promises an engaging and memorable travel experience.",
+      "votes": 34,
+      "imageUrl": "/images/Czech.jpg"
+    },
+    {
+      "id": "7",
+      "destination": "Iran",
+      "description": "Iran is a captivating destination rich in history and culture, offering a blend of ancient landmarks and vibrant traditions. Visitors can explore the grand ruins of Persepolis, a testament to the ancient Persian Empire, and marvel at the stunning architecture of mosques and palaces in cities like Isfahan and Shiraz. Tehran, the capital, boasts modern attractions alongside its historic sites. The country's diverse landscapes, from the desert sands of Yazd to the lush forests of the Caspian region, offer a variety of natural beauty. With its warm hospitality and rich heritage, Iran promises a unique and immersive travel experience.",
+      "votes": 24,
+      "imageUrl": "/images/iran.jpg"
+    },
+    {
+      "id": "8",
+      "destination": "India",
+      "description": "India is a vibrant and diverse destination renowned for its rich cultural heritage and varied landscapes. Visitors can marvel at the iconic Taj Mahal in Agra, explore the bustling streets of Delhi, and experience the serene backwaters of Kerala. The country's diverse regions offer unique experiences: Rajasthan’s majestic forts and palaces, the spiritual ambiance of Varanasi, and the stunning Himalayan scenery in the north. From the colorful festivals and intricate temples to the aromatic cuisine and warm hospitality, India provides a fascinating and immersive journey through its history, culture, and natural beauty.",
+      "votes": 83,
+      "imageUrl": "/images/india.jpg"
+    },
+    {
+      "id": "9",
+      "destination": "Japan",
+      "description": "Japan is a captivating blend of tradition and modernity, offering a diverse array of experiences. Tokyo dazzles with its vibrant city life, cutting-edge technology, and bustling shopping districts, while Kyoto enchants with its historic temples, traditional tea houses, and beautiful gardens. Visitors can explore stunning natural landscapes like Mount Fuji, the hot springs of Hakone, and the serene beauty of Hokkaido’s countryside. Japan’s rich cultural heritage is evident in its festivals, cuisine, and meticulous craftsmanship, making it a unique destination where ancient traditions and contemporary trends harmoniously coexist.",
+      "votes": 46,
+      "imageUrl": "/images/japan.jpg"
+    },
+    {
+      "id": "10",
+      "destination": "Brazil",
+      "description": "Brazil is a dynamic and vibrant destination known for its diverse landscapes and lively culture. Visitors can revel in the lively atmosphere of Rio de Janeiro, with its iconic Christ the Redeemer statue, stunning beaches like Copacabana and Ipanema, and the world-famous Carnival. The Amazon Rainforest offers unparalleled biodiversity and adventure, while Iguazu Falls provides a breathtaking natural spectacle. The historic city of Salvador showcases rich Afro-Brazilian culture, and the Pantanal presents remarkable wildlife experiences. With its blend of natural beauty, cultural richness, and energetic spirit, Brazil offers an unforgettable travel experience.",
+      "votes": 6,
+      "imageUrl": "/images/brazil.jpg"
+    }
+  ]
+}

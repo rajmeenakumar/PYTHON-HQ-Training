@@ -7,6 +7,7 @@ from sqlalchemy.orm import relationship
 
 # Base = declarative_base()
 
+
 class Destination(Base):
     __tablename__ = "destinations"
     
