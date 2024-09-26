@@ -6,3 +6,76 @@
 2024-09-26 10:39:49,188 - INFO - Request processing completed in 0.001 seconds
 2024-09-26 10:39:59,370 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
 2024-09-26 10:39:59,404 - INFO - Request processing completed in 0.034 seconds
+2024-09-26 11:58:13,239 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
+2024-09-26 11:58:13,246 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 11:58:13,650 - INFO - Request processing completed in 0.412 seconds
+2024-09-26 12:01:51,844 - INFO - Processing request: POST http://127.0.0.1:8000/auth/login
+2024-09-26 12:01:51,845 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 12:02:07,654 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:02:07,679 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:03:12,549 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:03:12,577 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:03:31,938 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:03:31,967 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:03:32,420 - INFO - Request processing completed in 0.482 seconds
+2024-09-26 12:03:40,613 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:03:40,617 - INFO - Request processing completed in 0.004 seconds
+2024-09-26 12:09:27,389 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:09:27,406 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:10:04,534 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 12:10:04,552 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:10:04,915 - INFO - Request processing completed in 0.381 seconds
+2024-09-26 12:22:02,872 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:22:02,873 - INFO - Request processing completed in 0.002 seconds
+2024-09-26 12:22:02,881 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:22:02,930 - INFO - Request processing completed in 0.049 seconds
+2024-09-26 12:22:30,779 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:22:30,779 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 12:22:30,785 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:22:30,833 - INFO - Request processing completed in 0.048 seconds
+2024-09-26 12:24:31,318 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:24:31,319 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 12:24:31,322 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:24:31,353 - INFO - Request processing completed in 0.031 seconds
+2024-09-26 12:25:12,728 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:25:12,730 - INFO - Request processing completed in 0.002 seconds
+2024-09-26 12:25:12,734 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:25:12,767 - INFO - Request processing completed in 0.033 seconds
+2024-09-26 12:25:50,805 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:25:50,806 - INFO - Request processing completed in 0.002 seconds
+2024-09-26 12:25:50,812 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:25:50,838 - INFO - Request processing completed in 0.026 seconds
+2024-09-26 12:27:27,665 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 12:27:27,666 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 12:27:27,669 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 12:27:27,687 - INFO - Request processing completed in 0.018 seconds
