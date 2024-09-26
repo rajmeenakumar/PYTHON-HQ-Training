@@ -1,0 +1,4 @@
+2024-09-26 10:10:48,746 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 10:10:48,750 - INFO - Request processing completed in 0.003 seconds
+2024-09-26 10:10:48,753 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 10:10:48,792 - INFO - Request processing completed in 0.039 seconds

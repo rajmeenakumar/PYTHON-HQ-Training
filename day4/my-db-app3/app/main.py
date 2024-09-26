@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from app.routers import destinations, category
 from . import models
 from . import database
-from app.middlewares import logging_middleware
+from app.middlewares.logging_middleware import logging_middleware
 
 
 
