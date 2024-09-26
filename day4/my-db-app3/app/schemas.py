@@ -2,6 +2,17 @@ from pydantic import BaseModel
 from datetime import datetime
 from typing import Optional, List
 
+
+class UserCreate(BaseModel):
+    name: str
+    email: str
+    password: str
+
+class UserResponse(BaseModel):
+    id: int
+    name: str
+    email: str
+ 
 # class Category(BaseModel):
 #     title: str
 
@@ -71,3 +82,5 @@ class Destination(DestinationBase):
 
     class Config:
         orm_mode = True
+
+

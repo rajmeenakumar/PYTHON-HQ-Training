@@ -7,6 +7,15 @@ from sqlalchemy.orm import relationship
 
 # Base = declarative_base()
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(50), unique=True, index=True)
+    email = Column(String(100), unique=True, index=True)
+    password = Column(String(100))
+    created_at = Column(DateTime, default=datetime.now)
+
 
 class Destination(Base):
     __tablename__ = "destinations"
