@@ -79,3 +79,46 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-09-26 12:27:27,666 - INFO - Request processing completed in 0.001 seconds
 2024-09-26 12:27:27,669 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
 2024-09-26 12:27:27,687 - INFO - Request processing completed in 0.018 seconds
+2024-09-26 12:44:16,357 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
+2024-09-26 12:44:16,363 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:44:16,695 - INFO - Request processing completed in 0.337 seconds
+2024-09-26 12:52:56,439 - INFO - Processing request: GET http://localhost:8000/docs
+2024-09-26 12:52:56,441 - INFO - Request processing completed in 0.001 seconds
+2024-09-26 12:53:37,170 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
+2024-09-26 12:53:37,175 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 12:53:37,552 - INFO - Request processing completed in 0.382 seconds
+2024-09-26 13:00:33,601 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
+2024-09-26 13:00:33,607 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\trainings\csir-python\day4\my-db-app3\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-26 13:00:44,694 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/register
+2024-09-26 13:00:44,947 - INFO - Request processing completed in 0.253 seconds
+2024-09-26 13:00:56,762 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/auth/login
+2024-09-26 13:00:57,010 - INFO - Request processing completed in 0.248 seconds
+2024-09-26 13:01:32,735 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories
+2024-09-26 13:01:32,735 - INFO - Request processing completed in 0.000 seconds
+2024-09-26 13:01:32,739 - INFO - Processing request: POST http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 13:01:32,761 - INFO - Request processing completed in 0.022 seconds
+2024-09-26 13:03:17,110 - INFO - Processing request: GET http://127.0.0.1:8000/api/v1/categories
+2024-09-26 13:03:17,114 - INFO - Request processing completed in 0.003 seconds
+2024-09-26 13:03:27,383 - INFO - Processing request: GET http://127.0.0.1:8000/api/v1/categories
+2024-09-26 13:03:27,387 - INFO - Request processing completed in 0.004 seconds
+2024-09-26 13:04:31,779 - INFO - Processing request: GET http://127.0.0.1:8000/api/v1/categories
+2024-09-26 13:04:31,782 - INFO - Request processing completed in 0.002 seconds
+2024-09-26 13:04:31,788 - INFO - Processing request: GET http://127.0.0.1:8000/api/v1/categories/
+2024-09-26 13:04:31,813 - INFO - Request processing completed in 0.025 seconds
+2024-09-26 13:05:32,709 - INFO - Processing request: GET http://localhost:8000/docs
+2024-09-26 13:05:32,710 - INFO - Request processing completed in 0.001 seconds
