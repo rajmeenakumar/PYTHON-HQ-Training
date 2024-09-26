@@ -1,0 +1,412 @@
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.4829130172729492s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.4460015296936035s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=200, time_taken=0.02700042724609375s
+INFO:root:Request: GET http://127.0.0.1:8000/categories?select=title,description&sort=-id&limit=5&page=1
+INFO:root:Response: status_code=307, time_taken=0.0010023117065429688s
+INFO:root:Request: GET http://127.0.0.1:8000/categories/?select=title,description&sort=-id&limit=5&page=1
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0009984970092773438s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.47202324867248535s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.001001596450805664s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.5179970264434814s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0009963512420654297s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0010001659393310547s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0019998550415039062s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.46924757957458496s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0009975433349609375s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Response: status_code=200, time_taken=0.037006378173828125s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0009999275207519531s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Response: status_code=200, time_taken=0.016980409622192383s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?sort=-votes&limit=5&page=1
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?sort=-votes&limit=5&page=1
+INFO:root:Response: status_code=200, time_taken=0.012995719909667969s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.5584187507629395s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0020093917846679688s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=200, time_taken=0.032999277114868164s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Response: status_code=200, time_taken=0.47899699211120605s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.4300065040588379s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0010006427764892578s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=200, time_taken=0.03299736976623535s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.464998722076416s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=403, time_taken=0.003000020980834961s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=id
+INFO:root:Response: status_code=307, time_taken=0.0019991397857666016s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=id
+INFO:root:Response: status_code=403, time_taken=0.0035152435302734375s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=id
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=id
+INFO:root:Response: status_code=403, time_taken=0.0020024776458740234s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "c:\Users\user\Downloads\Python Content\Git Folder\python-fastapi\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.5309996604919434s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=id
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=id
+INFO:root:Response: status_code=200, time_taken=0.025995254516601562s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=307, time_taken=0.0009992122650146484s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=200, time_taken=0.009000539779663086s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0010175704956054688s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0009999275207519531s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Response: status_code=200, time_taken=0.031002044677734375s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=1.3199968338012695s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.5434889793395996s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0020270347595214844s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=200, time_taken=0.05791616439819336s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.002927541732788086s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Response: status_code=200, time_taken=0.06136202812194824s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.004019498825073242s
+INFO:root:Request: POST http://127.0.0.1:8000/destinations/
+INFO:root:Response: status_code=403, time_taken=0.009994745254516602s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=id
+INFO:root:Response: status_code=307, time_taken=0.005118608474731445s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=id
+INFO:root:Response: status_code=200, time_taken=0.08733057975769043s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=307, time_taken=0.0020024776458740234s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=200, time_taken=0.044626474380493164s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0023546218872070312s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id
+INFO:root:Response: status_code=307, time_taken=0.001888275146484375s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=100&votes[lt]=500
+INFO:root:Response: status_code=307, time_taken=0.002999544143676758s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=100&votes[lt]=500
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=100&votes[lt]=500
+INFO:root:Response: status_code=307, time_taken=0.0020139217376708984s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=100&votes[lt]=500
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=100&votes[lt]=500
+INFO:root:Response: status_code=307, time_taken=0.002991199493408203s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=100&votes[lt]=500
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=100&votes[lt]=500
+INFO:root:Response: status_code=307, time_taken=0.0019981861114501953s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=100&votes[lt]=500
+INFO:root:Response: status_code=200, time_taken=0.04641366004943848s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=307, time_taken=0.0020117759704589844s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=200, time_taken=0.05330991744995117s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=307, time_taken=0.0023355484008789062s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=200, time_taken=0.03896689414978027s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=2&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=307, time_taken=0.003092527389526367s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=2&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=200, time_taken=0.0230562686920166s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=307, time_taken=0.0019960403442382812s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=200, time_taken=0.022007226943969727s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0010085105895996094s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0030007362365722656s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.003013134002685547s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.002003908157348633s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0020029544830322266s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.001999378204345703s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.003000974655151367s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0047512054443359375s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.002998828887939453s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.003997325897216797s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Response: status_code=200, time_taken=0.04745149612426758s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=id
+INFO:root:Response: status_code=307, time_taken=0.0010001659393310547s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=id
+INFO:root:Response: status_code=200, time_taken=0.03153038024902344s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=307, time_taken=0.0020003318786621094s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=200, time_taken=0.02101612091064453s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0010890960693359375s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Response: status_code=200, time_taken=0.011999130249023438s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=307, time_taken=0.00199127197265625s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=200, time_taken=0.022528886795043945s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=307, time_taken=0.0010113716125488281s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=10&sort=title&vote[gte]=40
+INFO:root:Response: status_code=200, time_taken=0.016017675399780273s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Response: status_code=200, time_taken=0.4436678886413574s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\punee\OneDrive\learnobytes\Training Content\Python Content\DB_App\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\learnings\python-fastapi\day4\MyApp\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Response: status_code=200, time_taken=1.0373656749725342s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Response: status_code=422, time_taken=0.01000070571899414s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\learnings\python-fastapi\day4\MyApp\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\work\learnings\python-fastapi\day4\MyApp\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: status_code=200, time_taken=0.4041934013366699s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.3959767818450928s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations
+INFO:root:Response: status_code=307, time_taken=0.0010335445404052734s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/
+INFO:root:Response: status_code=200, time_taken=0.02350020408630371s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=5&sort=-id
+INFO:root:Response: status_code=200, time_taken=0.010961055755615234s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?page=1&limit=2&sort=-id
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?page=1&limit=2&sort=-id
+INFO:root:Response: status_code=200, time_taken=0.0059964656829833984s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?select=id,title
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?select=id,title
+INFO:root:Response: status_code=200, time_taken=0.007918596267700195s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: GET http://127.0.0.1:8000/destinations/?votes[gt]=30&votes[lt]=40
+INFO:root:Response: status_code=200, time_taken=0.023095130920410156s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/register
+INFO:root:Response: status_code=200, time_taken=0.2514536380767822s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.2426440715789795s
+INFO:root:Request: POST http://127.0.0.1:8000/api/v1/categories
+INFO:root:Response: status_code=404, time_taken=0.0010008811950683594s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.3392634391784668s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0009989738464355469s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=200, time_taken=0.022995710372924805s
+INFO:root:Request: POST http://127.0.0.1:8000/auth/login
+INFO:root:Response: status_code=200, time_taken=0.32088708877563477s
+INFO:root:Request: POST http://127.0.0.1:8000/categories
+INFO:root:Response: status_code=307, time_taken=0.0010023117065429688s
+INFO:root:Request: POST http://127.0.0.1:8000/categories/
+INFO:root:Response: status_code=403, time_taken=0.0029926300048828125s
