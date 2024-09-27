@@ -23,6 +23,16 @@ async def get_item(item_id: str):
     raise HTTPException(status_code=404, detail="Item not found")
 
 
+# # get operation for items with item price greater than a given price
+# @router.get("/price/{price}", response_model=List[Item])
+#     items = await item_collection.find({"price": {"$gt": price}}).to_list(length=10)
+#     return items
+
+
+# @router.get("/search/{item_name}", response_model=List[Item])
+# async def search_item(item_name: str):
+#     items = await item_collection.find({"name": {"$regex": f"^{item_name}", "$options": "i"}}).to_list(length=10)
+#     return items 
 
 @router.get("/", response_model=List[Item])
 async def list_items(skip: int = 0, limit: int = 10):
